@@ -8,4 +8,4 @@ MvRxSample for Android Taipei
 用 React, Redux like 的方式開發 App
 
 Slide:
-https://www.slideshare.net/ssuser72c3b0/android-mvrx
+https://www.slideshare.net/ssuser72c3b0/android-mvrx-framework
