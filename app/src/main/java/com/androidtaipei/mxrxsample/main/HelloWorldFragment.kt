@@ -16,11 +16,8 @@ data class HelloWorldState(val title: String = "") : MvRxState
 
 class HelloWorldViewModel(initialState: HelloWorldState) : MvRxViewModel<HelloWorldState>(initialState) {
     fun showTitle(title: String) {
-        withState { state ->
-            println("a >>>>>>>>>>>>>>>>>> title: ${state.title}")
-        }
         setState {
-            copy(title = "Android")
+            copy(title = title)
         }
     }
 }
